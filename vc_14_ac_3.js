@@ -1,4 +1,3 @@
-Dmitry Makarenko, [06.02.2022 13:02]
 let age;
 let height;
 let weight;
