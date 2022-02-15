@@ -1,6 +1,8 @@
-let sum = (a, b) => a + b;
-let plusOne = (c) => c + 1;
-alert ( plusOne( sum( 5, 7) ) );
+//1
+let func1 = () => { };
+let func2 = (c) => c;
+func2(func1);
 
+//2
 let func = (c) => c;
-alert ( func ( () => () )  );
+func(() => { });
