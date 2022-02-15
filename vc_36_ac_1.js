@@ -1,4 +1,4 @@
-function getName(){
+let getName = () => {
 let name = "Valya";
 return(name);
 }
